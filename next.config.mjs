@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    reactStrictMode: false, images: {
+        domains: ['cdn.coinranking.com'],
+    }
+};
 
 export default nextConfig;
